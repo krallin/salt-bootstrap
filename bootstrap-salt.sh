@@ -330,7 +330,7 @@ shift $((OPTIND-1))
 
 
 __skip_salt_api () {
-    return 0
+    return 1
 }
 
 __check_unparsed_options() {
